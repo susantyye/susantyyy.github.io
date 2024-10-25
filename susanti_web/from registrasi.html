@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan bootstrap</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">welcome </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="profile.html">profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="daftar.html">daftar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kontak.html">kontak</a></li>
+                  <li><a class="dropdown-item" href="gallery.html">gallery</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="from registrasi.html">from registrasi</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">login</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+</head>
+<body>
+  <body>
+    <div class="container-form">
+        <div class="grid-container">
+          <div class="grid-item item1">
+          <label for="nama-depan">Nama Depan</label>
+          <input type="text" name="nama-depan" />
+        </div>
+        <div class="grid-item item2">
+          <label for="nama-belakang">Nama Belakang</label>
+          <input type="text" name="nama-belakang" />
+        </div>
+        <div class="grid-item item3">
+          <label for="alamat">Alamat</label>
+          <input type="text" name="alamat" />
+        </div>
+        <div class="grid-item item4">
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </div>
+        <div class="grid-item item5">
+          <label for="no-hp">No.HP</label>
+          <input type="number" name="no-hp" />
+        </div>
+        <div class="grid-item item6">
+          <label for="agama">Agama</label>
+          <select name="agama" id="">
+            <option value="islam">Islam</option>
+            <option value="hindu">Hindu</option>
+            <option value="budha">Budha</option>
+            <option value="dts">Dts</option>
+          </select>
+        </div>
+        <div class="grid-item item7">
+          <label for="pekerjaan">Pekerjaan</label>
+          <select name="pekerjaan" id="">
+            <option value="swasta">Swasta</option>
+            <option value="pns">PNS</option>
+            <option value="tni">TNI</option>
+            <option value="polri">Polri</option>
+            <option value="dokter">Dokter</option>
+            <option value="programer">Programer</option>
+            <option value="dpr">DPR</option>
+            <option value="guru">Guru</option>
+            <option value="dosen">Dosen</option>
+          </select>
+        </div>
+        <div class="grid-item item8">
+          <h1>Jenis Kelamin</h1>
+          <div class="radio-group">
+            <input type="radio" name="jk" />
+          <label for="jk">Laki-laki</label>
+          <input type="radio" name="jk" />
+          <label for="jk">Perempuan</label>
+      </div>
+        </div>
+        <div class="grid-item item9">
+          <label for="nik-ktp">NIK/No.KTP</label>
+          <input type="number" name="nik-ktp">
+        </div>
+        <div class="grid-item item10">
+          <label for="url-facebook">url Facebook</label>
+          <input type="url" name="url-facebook">
+        </div>
+        <div class="grid-item item11">
+          <label for="url-website">url Website</label>
+          <input type="url" name="url-website">
+        </div>
+        <div class="grid-item item12">
+          <label for="url-instagram">Url Instagram</label>
+          <input type="url" name="url-instagram" />
+        </div>
+        <div class="grid-item item13">
+          <label for="url-tiktok">Url Tiktok</label>
+          <input type="url" name="url-tiktok" />
+        </div>
+        <div class="grid-item item14">
+          <label for="nama-ibu">Nama Ibu</label>
+          <input type="text" name="nama-ibu" />
+        </div>
+        <div class="grid-item item15">
+          <label for="nama-ayah">Nama Ayah</label>
+          <input type="text" name="nama-ayah" />
+        </div>
+        <div class="grid-item item16">
+          <label for="alamat-ibu">Alamat Ibu</label>
+          <input type="text" name="alamat-ibu" />
+        </div>
+        <div class="grid-item item17">
+          <label for="nik-ayah">NIK Ayah</label>
+          <input type="text" name="nik-ayah" />
+        </div>
+        <div class="grid-item item18">
+          <label for="nik-ibu">NIK Ibu</label>
+          <input type="text" name="nik-ibu" />
+        </div>
+        <div class="grid-item item19">
+          <label for="pekerjaan-ayah">Pekerjaan Ayah</label>
+          <h1>---silahkan pilih---</h1>
+          <select name="pekerjaan-ayah">
+            <option value="Swasta">Swasta</option>
+            <option value="PNS">PNS</option>
+            <option value="TNI">TNI</option>
+            <option value="Polri">Polri</option>
+            <option value="Dokter">Dokter</option>
+            <option value="Programmer">Programmer</option>
+            <option value="DPR">DPR</option>
+            <option value="Guru">Guru</option>
+            <option value="Dosen">Dosen</option>
+          </select>
+        </div>
+        <div class="grid-item item20">
+          <label for="pekerjaan-ibu">Pekerjaan Ibu</label>
+          <h1>---silahkan pilih---</h1>
+          <select name="pekerjaan-ibu">
+            <option value="Swasta">Swasta</option>
+            <option value="PNS">PNS</option>
+            <option value="TNI">TNI</option>
+            <option value="Polri">Polri</option>
+            <option value="Dokter">Dokter</option>
+            <option value="Programmer">Programmer</option>
+            <option value="DPR">DPR</option>
+            <option value="Guru">Guru</option>
+            <option value="Dosen">Dosen</option>
+          </select>
+        </div>
+        <div class="grid-item item21">
+          <label for="no-hp-ayah">No.HP Ayah</label>
+          <input type="number" name="no-hp-ayah" />
+        </div>
+        <div class="grid-item item22">
+          <label for="no-hp-ibu">No.HP Ibu</label>
+          <input type="number" name="no-hp-ibu" />
+        </div>
+        <div class="grid-item item23">
+          <label for="username">Username</label>
+          <input type="text" name="username" />
+        </div>
+        <div class="grid-item item">
+          <br />
+        </div>
+        <div class="grid-item item24">
+          <label for="password">Password</label>
+          <input type="password" name="password" />
+        </div>
+        <div class="grid-item item">
+          <br />
+        </div>
+        <div class="grid-item item25">
+          <label for="Re-password">Re-type Password</label>
+          <input type="password" name="Re-password" />
+        </div>
+        <div class="grid-item item26">
+          <br />
+        </div>
+        <a href="index.html">
+            <button type="submit" name="Submit" class="btn-input">Submit</button>
+        </a>
+      </div>
+    </div>
+  </form>
+  </div>
+    </body>
+    <div class="card">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title"> be kind,be humble,full of love </h5>
+      <p class="card-text">kunjungi beberapa situs saya.</p>
+      <a href="#" class="btn btn-primary"> klik</a>
+    </div>
+    
+</body>
+</html>
